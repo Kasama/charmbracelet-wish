@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish/testsession"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish/testsession"
 	"github.com/google/go-cmp/cmp"
 	"github.com/matryer/is"
-	gossh "golang.org/x/crypto/ssh"
+	gossh "github.com/Kasama/golang-x-crypto/ssh"
 )
 
 func TestGetInfo(t *testing.T) {

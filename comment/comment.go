@@ -1,8 +1,8 @@
 package comment
 
 import (
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
 )
 
 // Middleware prints a comment at the end of the session.

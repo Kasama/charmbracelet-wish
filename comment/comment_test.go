@@ -3,9 +3,9 @@ package comment
 import (
 	"testing"
 
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish/testsession"
-	gossh "golang.org/x/crypto/ssh"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish/testsession"
+	gossh "github.com/Kasama/golang-x-crypto/ssh"
 )
 
 func TestMiddleware(t *testing.T) {

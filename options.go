@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/charmbracelet/keygen"
+	"github.com/Kasama/charmbracelet-keygen"
 	"github.com/charmbracelet/log"
-	"github.com/charmbracelet/ssh"
-	gossh "golang.org/x/crypto/ssh"
+	"github.com/Kasama/charmbracelet-ssh"
+	gossh "github.com/Kasama/golang-x-crypto/ssh"
 )
 
 // WithAddress returns an ssh.Option that sets the address to listen on.

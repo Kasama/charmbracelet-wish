@@ -13,10 +13,10 @@ import (
 	_ "embed"
 
 	"github.com/charmbracelet/log"
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
-	"github.com/charmbracelet/wish/elapsed"
-	"github.com/charmbracelet/wish/logging"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
+	"github.com/Kasama/charmbracelet-wish/elapsed"
+	"github.com/Kasama/charmbracelet-wish/logging"
 )
 
 const (

@@ -16,9 +16,9 @@ import (
 	"time"
 
 	"github.com/charmbracelet/log"
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
-	"github.com/charmbracelet/wish/scp"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
+	"github.com/Kasama/charmbracelet-wish/scp"
 	"github.com/pkg/sftp"
 )
 

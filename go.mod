@@ -1,13 +1,14 @@
-module github.com/charmbracelet/wish
+module github.com/Kasama/charmbracelet-wish
 
 go 1.19
 
 require (
+	github.com/Kasama/charmbracelet-keygen v0.1.0
+	github.com/Kasama/charmbracelet-ssh v0.1.0
+	github.com/Kasama/golang-x-crypto v0.24.3
 	github.com/charmbracelet/bubbletea v0.26.6
-	github.com/charmbracelet/keygen v0.5.0
 	github.com/charmbracelet/lipgloss v0.11.0
 	github.com/charmbracelet/log v0.4.0
-	github.com/charmbracelet/ssh v0.0.0-20240401141849-854cddfa2917
 	github.com/charmbracelet/x/exp/term v0.0.0-20240503143715-36ea203beff4
 	github.com/go-git/go-git/v5 v5.12.0
 	github.com/google/go-cmp v0.6.0
@@ -15,7 +16,6 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/matryer/is v1.4.1
 	github.com/muesli/termenv v0.15.3-0.20240509142007-81b8f94111d5
-	golang.org/x/crypto v0.24.0
 	golang.org/x/sync v0.7.0
 	golang.org/x/time v0.5.0
 )
@@ -27,9 +27,11 @@ require (
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/charmbracelet/x/ansi v0.1.2 // indirect
-	github.com/charmbracelet/x/errors v0.0.0-20240117030013-d31dba354651 // indirect
+	github.com/charmbracelet/x/conpty v0.1.0 // indirect
+	github.com/charmbracelet/x/errors v0.0.0-20240508181413-e8d8b6e2de86 // indirect
 	github.com/charmbracelet/x/input v0.1.0 // indirect
 	github.com/charmbracelet/x/term v0.1.1 // indirect
+	github.com/charmbracelet/x/termios v0.1.0 // indirect
 	github.com/charmbracelet/x/windows v0.1.0 // indirect
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/creack/pty v1.1.21 // indirect
@@ -53,6 +55,7 @@ require (
 	github.com/skeema/knownhosts v1.2.2 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
+	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
 	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/net v0.25.0 // indirect

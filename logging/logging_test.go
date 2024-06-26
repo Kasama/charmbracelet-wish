@@ -3,11 +3,11 @@ package logging_test
 import (
 	"testing"
 
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
-	"github.com/charmbracelet/wish/logging"
-	"github.com/charmbracelet/wish/testsession"
-	gossh "golang.org/x/crypto/ssh"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
+	"github.com/Kasama/charmbracelet-wish/logging"
+	"github.com/Kasama/charmbracelet-wish/testsession"
+	gossh "github.com/Kasama/golang-x-crypto/ssh"
 )
 
 func TestMiddleware(t *testing.T) {

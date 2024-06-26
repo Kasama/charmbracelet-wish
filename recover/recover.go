@@ -4,8 +4,8 @@ import (
 	"runtime/debug"
 
 	"github.com/charmbracelet/log"
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
 )
 
 // Middleware is a wish middleware that recovers from panics and log to stderr.

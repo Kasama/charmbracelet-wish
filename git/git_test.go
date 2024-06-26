@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/charmbracelet/keygen"
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
+	"github.com/Kasama/charmbracelet-keygen"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
 )
 
 func TestGitMiddleware(t *testing.T) {

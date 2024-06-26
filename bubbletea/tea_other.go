@@ -6,7 +6,7 @@ package bubbletea
 import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/charmbracelet/ssh"
+	"github.com/Kasama/charmbracelet-ssh"
 	"github.com/muesli/termenv"
 )
 

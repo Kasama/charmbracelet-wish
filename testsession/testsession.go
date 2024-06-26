@@ -7,8 +7,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/charmbracelet/ssh"
-	gossh "golang.org/x/crypto/ssh"
+	"github.com/Kasama/charmbracelet-ssh"
+	gossh "github.com/Kasama/golang-x-crypto/ssh"
 )
 
 // New starts a local SSH server with the given config and returns a client session.

@@ -15,10 +15,10 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/log"
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
-	"github.com/charmbracelet/wish/bubbletea"
-	"github.com/charmbracelet/wish/logging"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
+	"github.com/Kasama/charmbracelet-wish/bubbletea"
+	"github.com/Kasama/charmbracelet-wish/logging"
 	"github.com/muesli/termenv"
 )
 

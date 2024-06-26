@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/charmbracelet/log"
-	"github.com/charmbracelet/ssh"
-	"github.com/charmbracelet/wish"
-	"github.com/charmbracelet/wish/logging"
-	gossh "golang.org/x/crypto/ssh"
+	"github.com/Kasama/charmbracelet-ssh"
+	"github.com/Kasama/charmbracelet-wish"
+	"github.com/Kasama/charmbracelet-wish/logging"
+	gossh "github.com/Kasama/golang-x-crypto/ssh"
 )
 
 const (
