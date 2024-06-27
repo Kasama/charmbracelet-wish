@@ -9,7 +9,7 @@ require (
 	github.com/charmbracelet/bubbletea v0.26.6
 	github.com/charmbracelet/lipgloss v0.11.0
 	github.com/charmbracelet/log v0.4.0
-	github.com/charmbracelet/x/exp/term v0.0.0-20240503143715-36ea203beff4
+	github.com/charmbracelet/x/exp/term v0.0.0-20240524151031-ff83003bf67a
 	github.com/go-git/go-git/v5 v5.12.0
 	github.com/google/go-cmp v0.6.0
 	github.com/hashicorp/golang-lru/v2 v2.0.7
