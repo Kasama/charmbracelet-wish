@@ -66,6 +66,7 @@ func newRenderer(s ssh.Session) *lipgloss.Renderer {
 // If the terminal does not support querying the background color, nil is
 // returned.
 func backgroundColor(in, out *os.File) (c color.Color) {
+	c = color.White
 	state, err := term.MakeRaw(in.Fd())
 	if err != nil {
 		return
@@ -91,6 +92,7 @@ func backgroundColor(in, out *os.File) (c color.Color) {
 
 // copied from x/exp/term.
 func queryBackgroundColor(s ssh.Session) (bg color.Color) {
+	bg = color.White
 	_ = term.QueryTerminal(s, s, time.Second, func(events []input.Event) bool {
 		for _, e := range events {
 			switch e := e.(type) {
